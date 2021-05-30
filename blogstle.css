@@ -182,3 +182,79 @@ nav{
   justify-content: space-between;
   padding: 1rem;
 }
+
+@media (max-width : 800px) {
+  body {
+  margin: 0;
+}
+
+#container {
+  width: 600px;
+  margin: 0;
+}
+
+#knowledgepedia {
+  width: 100%;
+  margin: 0;
+}
+
+#sidebar {
+  width: 100%;
+  margin: 0;
+  float: left;
+}
+
+#ab img {
+  width: 105%;
+  margin: 0;
+  height: 200px;
+}
+
+#footer {
+  width: 100%;
+  margin: 0;
+}
+
+#Header {
+  width: 100%;
+}
+
+.logo {
+  color: #FF0000;
+  font-weight: bold;
+  padding: 5px;
+}
+
+ul{
+  list-style-type: none;
+  line-height: 2rem;
+}
+
+.material-icons{
+  width: 2rem;
+  cursor: pointer;
+}
+
+.material-icons:hover{
+  color: #FF0000;
+}
+
+.menu a{
+  color: grey;
+  letter-spacing: 0.1rem;
+  display:block;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s linear;
+}
+
+.menu a:hover{
+  background: #FFCFC2;
+  color:b#FF3700;
+  padding: 1.5rem;
+}
+
+
+nav{
+  box-shadow: 0 5px 15px rgba(0, 2, 0, 0.1);
+}
+}
