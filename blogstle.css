@@ -157,28 +157,4 @@ ul{
   color: #FF0000;
 }
 
-.menu a{
-  color: grey;
-  letter-spacing: 0.1rem;
-  display:block;
-  padding: 0.5rem 1rem;
-  transition: all 0.3s linear;
-}
 
-.menu a:hover{
-  background: #FFCFC2;
-  color:b#FF3700;
-  padding: 1.5rem;
-}
-
-
-nav{
-  box-shadow: 0 5px 15px rgba(0, 2, 0, 0.1);
-}
-
-.nav-header{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1rem;
-}
