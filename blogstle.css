@@ -186,75 +186,75 @@ nav{
 @media (max-width : 800px) {
   body {
   margin: 0;
-}
+ }
 
-#container {
+ #container {
   width: 600px;
   margin: 0;
-}
+ }
 
-#knowledgepedia {
+ #knowledgepedia {
   width: 100%;
   margin: 0;
-}
+ }
 
-#sidebar {
+ #sidebar {
   width: 100%;
   margin: 0;
   float: left;
-}
+ }
 
-#ab img {
+ #ab img {
   width: 105%;
   margin: 0;
   height: 200px;
-}
+ }
 
-#footer {
+  #footer {
   width: 100%;
   margin: 0;
-}
+ }
 
-#Header {
+  #Header {
   width: 100%;
-}
+ }
 
-.logo {
+  .logo {
   color: #FF0000;
   font-weight: bold;
   padding: 5px;
-}
+ }
 
-ul{
+  ul{
   list-style-type: none;
   line-height: 2rem;
-}
+ }
 
-.material-icons{
+  .material-icons{
   width: 2rem;
   cursor: pointer;
-}
+ }
 
-.material-icons:hover{
+  .material-icons:hover{
   color: #FF0000;
-}
+ }
 
-.menu a{
+  .menu a{
   color: grey;
   letter-spacing: 0.1rem;
   display:block;
   padding: 0.5rem 1rem;
   transition: all 0.3s linear;
-}
+ }
 
-.menu a:hover{
+  .menu a:hover{
   background: #FFCFC2;
   color:b#FF3700;
   padding: 1.5rem;
-}
+ }
 
 
-nav{
+  nav{
   box-shadow: 0 5px 15px rgba(0, 2, 0, 0.1);
-}
+ }
 }
