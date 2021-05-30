@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+
+#container {
+  width: 95%;
+  margin: 0;
+}
+
+#knowledgepedia {
+  width: 100%;
+  margin: 0;
+}
+
+#sidebar {
+  width: 100%;
+  margin: 0;
+  float: left;
+}
+
+#ab img {
+  width: 105%;
+  margin: 0;
+  height: 200px;
+}
+
+#footer {
+  width: 100%;
+  margin: 0;
+}
+
+#Header {
+  width: 100%;
+}
+
+.logo {
+  border-right: 1px solid #000000;
+  width: 35%;
+  color: #FF0000;
+  font-weight: bold;
+  padding: 5px;
+}

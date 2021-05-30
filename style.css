@@ -1,0 +1,151 @@
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.clear{
+  clear: both;
+}
+
+body{
+  margin: 0;
+}
+
+header{
+  width: 26%;
+  color: #FF0000;
+  font-weight: bold;
+  border-right: 1px solid #000000;
+  padding: 10px;
+  font-size: 25px;
+  font-family: 'Sigmar One', cursive;
+}
+
+h1{
+  font-family: 'Pattaya', sans-serif;
+}
+
+.mainphoto img{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 400px;
+}
+
+.container{
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  font-size: 1.6rem;
+  font-family: 'Squada One', cursive;
+}
+
+.profile{
+  width: 100%;
+}
+
+.ownerdet{
+  padding: 5px;
+  font-size: 1.888rem;
+  text-align: center;
+}
+
+.ownerlocationpic{
+  float: left;
+  margin-left: 30px;
+}
+
+.Knowledgepediadet{
+  float: right ;
+  text-align: left;
+  margin-right: 30px;
+}
+
+.ownerpic{
+  width: 150px;
+  border-radius: 50%;
+}
+
+.sociallinks{
+  float: left ;
+  width: 33%;
+  text-align: center;
+  float: right;
+}
+
+.sociallinks img{
+  border-radius: 50%;
+  width: 60px;
+}
+
+.community{
+  background: #B9B9B9;
+  padding: 5px;
+  padding: 10px;
+  font-family: 'Squada One', cursive;
+  font-size: 1.6rem;
+}
+
+.community .pic1{
+  float: left;
+  border-radius: 50%;
+  width: 200px;
+  padding: 5px;
+}
+
+.community .pic1det{
+  float: left;  
+  padding: 5px;
+  font-size: 2rem;
+}
+
+.community .pic2{
+  float: right;
+  border-radius:50%;
+  width: 200px;
+  padding: 5px;
+}
+
+.community .pic2det{
+  float: right;  
+  font-size: 2rem;
+  padding: 5px;
+}
+
+.register{
+  text-align: center;
+  font-size: 20px;
+}
+
+button{
+  width: 150px;
+  height: 50px;
+  font-size: 2rem;
+}
+
+.details{
+  background: #000000;
+  color:#FFFFFF;
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Stint Ultra Condensed', cursive;
+  font-size: 1.2rem;
+}
+
+footer{
+  background: #0044FF;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 5px;
+  font-family: 'Inconsolata', monospace;
+  font-size: 0.8rem;
+}
+
+.details a , footer a{
+  color: #00FF6D;
+}
+
+.material-icons{
+  padding: 5px;
+}

@@ -1,0 +1,98 @@
+body {
+  background: #FFFFFF;
+  margin: 0;
+}
+
+#container {
+  width: 900px;
+  margin: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+#Header {
+  background: #4300FF;
+  width: 107%;
+  padding: 10px;
+  color: #EFEFEF;
+}
+
+#knowledgepedia {
+  background: #FFFFFF;
+  color: black;
+  width: 55%;
+  padding: 10px;
+  float: left;
+  margin: 15px 5px 0 50px;
+}
+
+#sidebar {
+  background: #EBEBEB;
+  width: 25%;
+  padding: 10px;
+  float: right;
+  margin: 15px 10px 0 30px;
+}
+
+#footer {
+  background: #B0B0B6;
+  padding: 10px;
+  width: 91.2%;
+  height: 50px;
+  font-size: 15px;
+  margin: 0 50px 0 50px;
+}
+
+style {
+  font-size: 15pt;
+  color: black;
+}
+
+span {
+  float: right;
+}
+
+hello {
+  float: left;
+}
+
+h2 {
+  padding: 5px;
+  background: #3CBF1F;
+  border-radius: 16px;
+}
+
+a {
+  color: #FF5C5C;
+  text-decoration: none;
+}
+
+#ab img {
+  width: 109%;
+  border: none;
+  border-radius: 0;
+  margin: 0;
+  height: 300px;
+}
+
+img {
+  border: solid 5px #000000;
+  border-radius: 80px;
+  margin: 10px;
+}
+
+button {
+  border: solid 2px #000000;
+  margin: 5px;
+}
+
+.logo  {
+  border-right: 1px solid #000000;
+  width: 15%;
+  color: #FF0000;
+  font-weight: bold;
+  padding: 5px;
+}
+

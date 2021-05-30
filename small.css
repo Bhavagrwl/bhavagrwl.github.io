@@ -1,0 +1,150 @@
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body{
+  margin: 0;
+  width: 100%;
+}
+
+header{
+  width: 40%;
+  color: #FF0000;
+  font-weight: bold;
+  border-right: 1px solid #000000;
+  padding: 10px;
+  font-size: 16px;
+  font-family: 'Sigmar One', cursive;
+}
+
+h1{
+  font-family: 'Pattaya', sans-serif;
+}
+
+.mainphoto img{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+}
+
+.container{
+  width: 95%;
+  margin: 0;
+  padding: 10px;
+  font-family: 'Squada One', cursive;
+  font-size: 1.2rem;
+  height: auto;
+}
+
+.profile{
+  text-align: center;
+}
+
+.ownerdet{
+  text-align: center;
+  padding: 5px;
+  width: 100%;
+  font-size: 1.3rem;
+}
+.ownerlocationpic{
+  float: none;
+  margin:0;
+}
+
+.Knowledgepediadet{
+  float: none ;
+  text-align: center;
+  margin: 0;
+}
+
+.ownerpic{
+  width: 100px;
+  border-radius: 50%;
+  float:none;
+}
+
+.sociallinks{
+  float: left;
+  text-align: center;
+  width: 33.3%;
+}
+
+.sociallinks img{
+  border-radius: 50%;
+  width: 50px;
+  padding: 10px;
+}
+
+.community{
+  background: #B9B9B9;
+  padding: 5px;
+  font-family: 'Patua One', cursive;
+  height: auto;
+}
+
+.community .pic1{
+  float: left;
+  border-radius: 50%;
+  width: 100px;
+  padding: 5px;
+}
+
+.community .pic1det{
+  float: left;  
+  padding: 5px;  
+  font-size: 1.2rem;
+}
+
+.community .pic2{
+  float: right;
+  border-radius:50%;
+  width: 100px;
+  padding: 5px;
+}
+
+.community .pic2det{
+  float: right;  
+  font-size: 1.2rem;
+  padding: 5px;
+}
+
+.register{
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+}
+
+button{
+  font-size: 1rem;
+  height: 40px;
+  font-weight: bold;
+  width: 110px;
+}
+
+.details{
+  background: #000000;
+  color:#FFFFFF;
+  padding: 10px;
+  font-family: 'Stint Ultra Condensed', cursive;
+  font-size: 1.4rem;
+}
+
+footer{
+  background: #0044FF;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 5px;
+  font-size: 1rem;
+  font-family: 'Inconsolata', monospace;
+}
+
+.details a , footer a{
+  color: #00FF6D;
+}
+
+.material-icons{
+  padding: 5px;
+}
