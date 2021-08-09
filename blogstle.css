@@ -1,145 +1,183 @@
 body {
-  background: #FFFFFF;
-  margin: 0;
-  widtg: 100%;
+    background: #FFFFFF;
+    margin: 0;
 }
 
 #container {
-  width: 1070px;
-  margin: 0;
+    width: 100%;
+    margin: 0;
 }
 
 .clear {
-  clear: both;
+    clear: both;
 }
 
 #Header {
-  background: #4300FF;
-  width: 107%;
-  padding: 10px;
-  color: #EFEFEF;
+    background: #4300FF;
+    width: 107%;
+    padding: 10px;
+    color: #EFEFEF;
 }
 
 #knowledgepedia {
-  background: #FFFFFF;
-  color: black;
-  width: 55%;
-  padding: 10px;
-  float: left;
-  margin: 15px 5px 0 50px;
+    background: #FFFFFF;
+    color: black;
+    width: 55%;
+    padding: 10px;
+    float: left;
+    margin: 15px 5px 0 50px;
 }
 
 #sidebar {
-  background: #EBEBEB;
-  width: 25%;
-  padding: 10px;
-  float: right;
-  margin: 15px 10px 0 30px;
+    background: #EBEBEB;
+    width: 25%;
+    padding: 10px;
+    float: right;
+    margin: 15px 10px 0 30px;
 }
 
 #footer {
-  background: #B0B0B6;
-  padding: 10px;
-  width: 91.2%;
-  height: 50px;
-  font-size: 15px;
-  margin: 0 50px 0 50px;
+    background: #B0B0B6;
+    padding: 10px;
+    width: 91.2%;
+    height: 50px;
+    font-size: 15px;
+    margin: 0 50px 0 50px;
 }
 
 style {
-  font-size: 15pt;
-  color: black;
+    font-size: 15pt;
+    color: black;
 }
 
 span {
-  float: right;
+    float: right;
 }
 
 hello {
-  float: left;
+    float: left;
 }
 
 h2 {
-  padding: 5px;
-  background: #3CBF1F;
-  border-radius: 16px;
+    padding: 5px;
+    background: #3CBF1F;
+    border-radius: 16px;
 }
 
 a {
-  color: #FF5C5C;
-  text-decoration: none;
+    color: #FF5C5C;
+    text-decoration: none;
 }
 
 #ab img {
-  width: 109%;
-  border: none;
-  border-radius: 0;
-  margin: 0;
-  height: 300px;
+    width: 109%;
+    border: none;
+    border-radius: 0;
+    margin: 0;
+    height: 300px;
 }
 
 img {
-  border: solid 5px #000000;
-  border-radius: 80px;
-  margin: 10px;
+    border: solid 5px #000000;
+    border-radius: 80px;
+    margin: 10px;
 }
 
 button {
-  border: solid 2px #000000;
-  margin: 5px;
+    border: solid 2px #000000;
+    margin: 5px;
 }
 
-.logo  {
-  color: #FF0000;
-  font-weight: bold;
-  padding: 5px;
+.logo {
+    color: #FF0000;
+    font-weight: bold;
+    padding: 5px;
 }
 
-ul{
-  list-style-type: none;
-  line-height: 2rem;
+ul {
+    list-style-type: none;
+    line-height: 2rem;
 }
 
-.material-icons{
-  width: 2rem;
-  cursor: pointer;
+.material-icons {
+    width: 2rem;
+    cursor: pointer;
 }
 
-.material-icons:hover{
-  color: #FF0000;
+.material-icons:hover {
+    color: #FF0000;
 }
 
-.menu a{
-  color: grey;
-  letter-spacing: 0.1rem;
-  display:block;
-  padding: 0.5rem 1rem;
-  transition: all 0.3s linear;
+.menu a {
+    color: grey;
+    letter-spacing: 0.1rem;
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s linear;
 }
 
-.menu a:hover{
-  background: #FFCFC2;
-  color:b#FF3700;
-  padding: 1.5rem;
+.menu a:hover {
+    background: #FFCFC2;
+    color: b#FF3700;
+    padding: 1.5rem;
 }
 
-.menu{
-  height: 0;
-  overflow: hidden;
-  transition: all 0.3s linear;
+.menu {
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s linear;
 }
 
-.show-menu{
-  height: 13rem;
+.show-menu {
+    height: 13rem;
 }
 
-nav{
-  box-shadow: 0 5px 15px rgba(0, 2, 0, 0.1);
+nav {
+    box-shadow: 0 5px 15px rgba(0, 2, 0, 0.1);
 }
 
-.nav-header{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1rem;
+.nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 2rem;
+}
+
+.material-icons {
+    width: 2rem;
+    cursor: pointer;
+}
+
+.material-icons:hover {
+    color: #FF0000;
+}
+
+.menu a {
+    color: grey;
+    letter-spacing: 0.1rem;
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s linear;
+}
+
+.menu a:hover {
+    background: #FFCFC2;
+    color: b#FF3700;
+    padding: 1.5rem;
+}
+
+nav {
+    box-shadow: 0 5px 15px rgba(0, 2, 0, 0.1);
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
 }
